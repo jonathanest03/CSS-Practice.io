@@ -1,0 +1,108 @@
+/* 5_css1.css */
+
+/* Page background + base type */
+body{
+  background: #b8dbe6;          /* light blue like the screenshot */
+  margin: 0;
+  padding: 18px 14px 50px 14px;
+  font-family: "Times New Roman", Times, serif;
+  color: #000;
+}
+
+/* Top header */
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 64px;
+  font-weight: 800;
+  text-align: center;
+  margin: 10px 0 18px 0;
+}
+
+/* Section headers */
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  font-weight: 800;
+  margin: 6px 0 10px 0;
+}
+
+h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  margin: 18px 0 8px 0;
+}
+
+/* Paragraph spacing */
+p{
+  font-size: 13px;
+  line-height: 1.25;
+  margin: 0 0 10px 0;
+}
+
+/* The boxed 2nd paragraph */
+#paragraph2{
+  background: #ffffff;
+  border: 4px solid #0a7a0a;    /* green outline */
+  padding: 18px 22px;
+  margin: 14px 0 14px 12px;     /* slight left offset like screenshot */
+  width: 62%;
+  line-height: 1.8;             /* taller lines like screenshot */
+}
+
+/* Blue (4th + 5th) paragraphs */
+.blue{
+  background: #0a0a86;          /* deep navy */
+  color: #ffffff;
+  padding: 12px 12px;
+  margin: 10px 0;
+  border-top: 4px solid #d8d8d8;
+  border-bottom: 4px solid #d8d8d8;
+}
+
+/* Ordered list with two digits */
+ol{
+  list-style-type: decimal-leading-zero;
+  padding-left: 28px;
+  margin: 8px 0 12px 0;
+}
+
+/* Link colors: list items stay “normal blue”, w3schools is different */
+a{
+  color: #1a0dab;               /* classic link blue */
+  text-decoration: underline;
+}
+
+a:visited{
+  color: #551a8b;               /* classic visited purple */
+}
+
+a[href*="w3schools"]{
+  color: #b22222;               /* red for W3schools.com */
+}
+
+a[href*="w3schools"]:visited{
+  color: #b22222;
+}
+
+/* Table styling (different header/cell backgrounds + collapsed borders) */
+table{
+  border-collapse: collapse;     /* overlapping borders */
+  margin-top: 8px;
+  font-size: 12px;
+}
+
+th, td{
+  border: 2px solid #6b6b6b;
+  padding: 6px 10px;
+  vertical-align: top;
+}
+
+th{
+  background: #d0d0d0;
+  font-weight: 800;
+}
+
+td{
+  background: #ffffff;
+}
